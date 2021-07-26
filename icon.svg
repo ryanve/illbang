@@ -1,0 +1,11 @@
+<svg viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg">
+  <title>¡!</title>
+  <style>
+    svg { background: var(--ill-oil, deepskyblue) }
+    rect { fill: var(--ill-ink, black) }
+  </style>
+  <rect x="617" y="800" width="300" height="1300" />
+  <rect x="617" y="300" width="300" height="300" />
+  <rect x="1483" y="300" width="300" height="1300" />
+  <rect x="1483" y="1800" width="300" height="300" />
+</svg>

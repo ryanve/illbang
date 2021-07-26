@@ -1,0 +1,65 @@
+html {
+  --oil: powderblue;
+  --ink: deeppink;
+  --ill-oil: var(--oil);
+  --ill-ink: var(--ink);
+}
+
+html {
+  font-size: calc(1em + 1vmin);
+  font-family: monospace, serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  margin-block-end: 3rem;
+}
+
+figure {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+
+svg:first-of-type {
+  order: -2;
+}
+
+label,
+input {
+  align-self: flex-start;
+}
+
+#turn {
+  margin: 1ex;
+  writing-mode: vertical-lr;
+  visibility: hidden;
+}
+
+[for=turn] {
+  font-size: 2rem;
+  margin: 0;
+}
+
+:checked + [for=turn] {
+  writing-mode: vertical-lr;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.turn,
+#turn:checked ~ [data-turn] {
+  transform: rotate(90deg);
+}
+
+@media (orientation: landscape) {
+  .tilt {
+    transform: rotate(90deg);
+  }
+}
