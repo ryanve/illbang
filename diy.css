@@ -2,7 +2,6 @@
   --dew-shift: filter 111ms;
   --dew-solar: var(--ill-oil);
   --dew-lunar: var(--ill-ink);
-  --dew-locus: currentColor;
   --dew-focus: invert(100%);
   --dew-hover: hue-rotate(30deg);
   --dew-vapor: opacity(60%);
