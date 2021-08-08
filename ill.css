@@ -1,13 +1,21 @@
 html {
-  --oil: powderblue;
-  --ink: deeppink;
+  --oil: hotpink;
+  --ink: #404;
   --ill-oil: var(--oil);
   --ill-ink: var(--ink);
+}
+
+@media (prefers-contrast: more) {
+  html {
+    --oil: linen;
+    --ink: #404;
+  }
 }
 
 html {
   font-size: calc(1em + 1vmin);
   font-family: monospace, serif;
+  line-height: 1.5;
 }
 
 body {
@@ -24,6 +32,10 @@ figure {
   flex-flow: column;
 }
 
+details {
+  margin: 1rem;
+}
+
 svg:first-of-type {
   order: -2;
 }
@@ -31,6 +43,7 @@ svg:first-of-type {
 label,
 input {
   align-self: flex-start;
+  line-height: normal;
 }
 
 #turn {
