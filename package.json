@@ -5,7 +5,7 @@
   "author": "Ryan",
   "homepage": "https://ryanve.dev/illbang",
   "main": "node.js",
-  "license": "MPL-2.0",
+  "license": "Vim",
   "scripts": {
     "echo": "echo ¡!",
     "firefox": "open -a firefox index.html || start firefox index.html",
