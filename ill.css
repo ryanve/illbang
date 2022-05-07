@@ -1,15 +1,8 @@
 html {
-  --oil: hotpink;
+  --oil: #bae4ea;
   --ink: #404;
   --ill-oil: var(--oil);
   --ill-ink: var(--ink);
-}
-
-@media (prefers-contrast: more) {
-  html {
-    --oil: linen;
-    --ink: #404;
-  }
 }
 
 html {
