@@ -1,8 +1,8 @@
 <svg viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg">
   <title>¡!</title>
   <style>
-    svg { background: var(--ill-oil, hotpink) }
-    rect { fill: var(--ill-ink, black) }
+    svg { background: var(--ill-oil, #bae4ea) }
+    rect { fill: var(--ill-ink, #404) }
   </style>
   <rect x="617" y="800" width="300" height="1300" />
   <rect x="617" y="300" width="300" height="300" />
